@@ -17,6 +17,7 @@
     <string name="submit_review">Submit Review</string>
     <string name="song_title">Song Title</string>
     <string name="enter_your_mood">Enter your mood</string>
-    <string name="generate_recommendations">Generate Recommendations</string>
+    <string name="generate_recommendations">Generate</string>
+    <string name="how_are_you_feeling_today">How are you feeling today?</string>
 
 </resources>
