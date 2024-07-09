@@ -9,41 +9,34 @@
 
     <EditText
         android:id="@+id/moodEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="376dp"
+        android:layout_height="243dp"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
         android:autofillHints=""
         android:background="@drawable/white_rounded_et"
-        android:hint="@string/enter_your_mood"
+        android:hint="@string/how_are_you_feeling_today"
         android:inputType="text"
-        android:minHeight="48dp"
+        android:minHeight="80dp"
         android:padding="12dp"
         android:textColor="#3E2723"
         android:textColorHint="#3E2723"
-        android:textSize="14sp"
+        android:textSize="16sp"
         tools:ignore="VisualLintTextFieldSize" />
 
     <Button
         android:id="@+id/generateButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="173dp"
+        android:layout_height="48dp"
         android:layout_below="@id/moodEditText"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_gravity="center"
-        android:layout_marginStart="98dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="99dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="110dp"
         android:backgroundTint="@color/orange"
         android:text="@string/generate_recommendations"
         android:textColor="#3E2723" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recommendationsRecyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_below="@id/generateButton"
-        android:layout_marginTop="16dp"
-        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
