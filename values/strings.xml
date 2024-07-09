@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">All Ears</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="label_login">Login</string>
+    <string name="label_sign_up">Sign Up</string>
+    <string name="all">ALL</string>
+    <string name="ears_">EARS</string>
+    <string name="music_note">♫</string>
+    <string name="content_description">logo for app fr</string>
+    <string name="go_to_ai_recommendations">Go to AI Recommendations</string>
+    <string name="search_for_songs">Search for songs...</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="image_of_song">image of song</string>
+    <string name="song_name">Song Name</string>
+    <string name="write_your_review_here">Write your review here</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="song_title">Song Title</string>
+    <string name="enter_your_mood">Enter your mood</string>
+    <string name="generate_recommendations">Generate Recommendations</string>
+
+</resources>

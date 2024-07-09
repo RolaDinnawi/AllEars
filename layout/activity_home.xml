@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/darkPetroleumBlue"
+    tools:context=".HomeActivity">
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:background="@drawable/rounded_edittext"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:fontFamily="sans-serif"
+        android:hint="@string/search_for_songs"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="#3E2723"
+        android:textColorHint="#3E2723"
+        android:textSize="14sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/songsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/searchEditText"
+        android:layout_above="@id/aiButton"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/aiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="sans-serif"
+        android:text="@string/go_to_ai_recommendations"
+        android:textColor="#3E2723" />
+
+</RelativeLayout>
